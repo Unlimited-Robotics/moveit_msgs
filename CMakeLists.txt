@@ -101,6 +101,8 @@ set(srv_files
   "srv/DeleteRobotStateFromWarehouse.srv"
   "srv/ServoCommandType.srv"
   "srv/GetGroupUrdf.srv"
+  "srv/ChangeControlDimensions.srv"
+  "srv/ChangeDriftDimensions.srv"
 )
 
 set(action_files
