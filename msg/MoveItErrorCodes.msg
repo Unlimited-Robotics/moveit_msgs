@@ -42,6 +42,18 @@ int32 ABORT=-30
 # kinematics errors
 int32 NO_IK_SOLUTION=-31
 
+#trajectory errors
+int32 INVALID_GOAL=-51
+int32 INVALID_JOINTS=-52
+int32 OLD_HEADER_TIMESTAMP=-53
+int32 PATH_TOLERANCE_VIOLATED=-54
+int32 GOAL_TOLERANCE_VIOLATED=-55
+
+#custom errors
+int32 SOME_STATE_IN_COLLISION=-60
+int32 SOME_STATE_VIOLATES_CONSTRAINTS=-61
+
+
 # A message to provide additional information.
 string message
 
